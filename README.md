@@ -12,3 +12,7 @@ How to take Udemy Screen shot
 
 
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/6cbbfa4e-9c34-4461-92ea-3a1494a8522b" />
+
+List of solution 
+---------------
+> dotnet sln list
