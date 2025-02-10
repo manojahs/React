@@ -55,6 +55,17 @@ dotnet ef install for migration
 -----------------
 dotnet tool install --global dotnet-ef --version 9.0.1
 
+connection string in appsetting.json
+---------------
+ "ConnectionStrings": {
+    "DefaultConnection":"data source=React.db"
+  }
+
+Program.cs
+-------------
+builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
 ----------------------------------------------------------------------------------------------------------
 
 List of solution 
