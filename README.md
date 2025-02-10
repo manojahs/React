@@ -16,3 +16,7 @@ How to take Udemy Screen shot
 List of solution 
 ---------------
 > dotnet sln list
+>
+> install ef
+> ---------
+dotnet tool install --global dotnet-ef
