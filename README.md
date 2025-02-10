@@ -20,3 +20,8 @@ List of solution
 > install ef
 > ---------
 dotnet tool install --global dotnet-ef
+
+Main solution is API bcz its having program.cs class so here we need to create a table that we are consuming model from persistance solution to API solution for create a migration we will use command that is 
+----------------------
+
+dotnet ef migrations add init -s API -p Persistence
