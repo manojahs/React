@@ -51,6 +51,10 @@ To run the application
 --------------------
 API> dotnet run
 
+dotnet ef install for migration
+-----------------
+dotnet tool install --global dotnet-ef --version 9.0.1
+
 ----------------------------------------------------------------------------------------------------------
 
 List of solution 
