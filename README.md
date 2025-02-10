@@ -8,10 +8,26 @@ How to take Udemy Screen shot
 4)In the Settings menu, type "acceleration" in the search bar located at the top.
 5)You will see an option labeled "Use hardware acceleration when available."
 6)Disable this option by clicking on the toggle button next to it.
-7)Once disabled, relaunch Google Chrome.
+7)Once disabled, relaunch Google Chrome
+
 
 
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/6cbbfa4e-9c34-4461-92ea-3a1494a8522b" />
+
+
+Create folder ReactCourse
+------------------------
+Open command prompt
+
+Create a solution
+-------------------
+dotnet new sln
+
+create webapi app with controllers
+-----------------------------------
+dotnet new webapi -n API -controllers
+
+----------------------------------------------------------------------------------------------------------
 
 List of solution 
 ---------------
@@ -25,3 +41,7 @@ Main solution is API bcz its having program.cs class so here we need to create a
 ----------------------
 
 dotnet ef migrations add init -s API -p Persistence
+
+To create a database
+--------------------
+dotnet ef database
