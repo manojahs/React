@@ -41,6 +41,7 @@ dotnet sln add Application
 dotnet sln add Persistence    
 dotnet sln add Domain 
 
+<img width="886" alt="image" src="https://github.com/user-attachments/assets/3f1140aa-13b1-4e13-a7cb-0a0b7dd9337f" />
 
 ----------------------------------------------------------------------------------------------------------
 
