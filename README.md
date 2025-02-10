@@ -47,6 +47,10 @@ Adding a reference from Application to API
 -------------------------------------------
 API> dotnet add reference ../Application/Application.csproj
 
+To run the application
+--------------------
+API> dotnet run
+
 ----------------------------------------------------------------------------------------------------------
 
 List of solution 
