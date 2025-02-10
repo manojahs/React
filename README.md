@@ -27,6 +27,10 @@ create webapi with folder name as API and solution as app with controllers
 -----------------------------------
 dotnet new webapi -n API -controllers
 
+Create a folder with Class as Domain 
+--------------------------------------
+dotnet new classlib -n Domain
+
 ----------------------------------------------------------------------------------------------------------
 
 List of solution 
