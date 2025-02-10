@@ -19,9 +19,9 @@ Create folder ReactCourse
 ------------------------
 Open command prompt
 
-Create a solution
+Create a solution  (ReactCourse.sln)
 -------------------
-dotnet new sln
+dotnet new sln 
 
 create webapi with folder name as API and solution as app with controllers
 -----------------------------------
@@ -32,6 +32,14 @@ Create a folder with Class as Domain , Application & Persistence
 dotnet new classlib -n Domain
 dotnet new classlib -n Application
 dotnet new classlib -n Persistence
+
+
+Create a solutions for API , Application & Persistence & Domain
+-------------------------------------------------------
+dotnet sln add API    
+dotnet sln add Application    
+dotnet sln add Persistence    
+dotnet sln add Domain 
 
 
 ----------------------------------------------------------------------------------------------------------
