@@ -23,7 +23,7 @@ Create a solution
 -------------------
 dotnet new sln
 
-create webapi app with controllers
+create webapi with folder name as API and solution as app with controllers
 -----------------------------------
 dotnet new webapi -n API -controllers
 
