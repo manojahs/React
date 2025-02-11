@@ -105,3 +105,7 @@ catch (Exception ex)
 
 }
 
+git ignore command
+--------------
+dotnet new gitignore
+
