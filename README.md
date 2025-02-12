@@ -67,8 +67,19 @@ builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlite(builder.Configura
 
 <img width="497" alt="image" src="https://github.com/user-attachments/assets/74a61a7d-c91a-4c8c-9801-93392cc1ea73" />
 
+using if Vite for ReactNative app
+--------------------------------
+npm create vite@latest
+√ Project name: ... client
+√ Select a framework: » React
+√ Select a variant: » TypeScript + SWC
 
-----------------------------------------------------------------------------------------------------------
+npm install
+npm run dev
+<img width="677" alt="image" src="https://github.com/user-attachments/assets/fa945daa-0ac7-4524-b62d-f09cf28a3620" />
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 List of solution 
 ---------------
