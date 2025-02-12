@@ -78,6 +78,13 @@ npm install
 npm run dev
 <img width="677" alt="image" src="https://github.com/user-attachments/assets/fa945daa-0ac7-4524-b62d-f09cf28a3620" />
 
+change the default port no to custom in this file vite.config.ts
+----------------------------------------
+export default defineConfig({server:{
+  port:3000
+},
+  plugins: [react()],
+})
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
