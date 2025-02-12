@@ -65,6 +65,8 @@ Program.cs
 -------------
 builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+<img width="497" alt="image" src="https://github.com/user-attachments/assets/74a61a7d-c91a-4c8c-9801-93392cc1ea73" />
+
 
 ----------------------------------------------------------------------------------------------------------
 
