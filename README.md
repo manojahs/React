@@ -86,6 +86,11 @@ export default defineConfig({server:{
   plugins: [react()],
 })
 
+install package 
+-------
+ESLint
+ES7+ React/Redux/React-Native snippets
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 List of solution 
