@@ -91,6 +91,8 @@ install package
 ESLint
 ES7+ React/Redux/React-Native snippets
 
+Vite uses esbuild and is used to bundle the code
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 List of solution 
